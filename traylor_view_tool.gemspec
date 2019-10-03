@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{It is a copyright gem I am creating for a project.}
   spec.homepage      = "https://github.com/toddt67878"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
+  #spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   
   spec.bindir        = "exe"
