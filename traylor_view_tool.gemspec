@@ -12,14 +12,14 @@ Gem::Specification.new do |spec|
   spec.description   = %q{It is a copyright gem I am creating for a project.}
   spec.homepage      = "https://github.com/toddt67878"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
 
   
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "bundler", "~> 2.0.2"
+  spec.add_development_dependency "rake", "~> 13.0.0"
+  spec.add_development_dependency "rspec", "~> 3.8.0"
 end
